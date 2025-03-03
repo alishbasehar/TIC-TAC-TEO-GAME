@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+body{
+ 
+
+    background-color:white;
+    text-align: center;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+        gap: 100px;}
+.container{
+    
+    height: 70%;
+    display: flex;
+   
+
+justify-content: center;
+align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1.5vmin;
+
+}
+.box{
+height: 18vmin;
+width: 18vmin;
+border-radius: 0.5rem;
+border: none;
+box-shadow: 0 0 0.5rem rgb(130, 130, 130);
+font-size: 8vmin;
+
+
+background-color:#c3c3c3;
+
+
+
+}
+
+.box0{
+    color: blue;
+}
+.boxx{
+    color: rgb(209, 6, 6);
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+   color: aliceblue;
+   background-color: black;
+
+margin-top: 10px;
+border-radius: 1rem;
+border: none;
+
+}
+#msg{
+    color: rgb(4, 130, 4);
+font-weight: bold;
+font-size: 6vmin;
+
+
+}
+.msg1{
+    margin-bottom: 30px;
+
+}
+.hide{
+    display: none;
+}
+#reset1{
+    font-family: 'Poppins', sans-serif;
+
+    padding: 1rem;
+    font-size: 1.25rem;
+   color: aliceblue;
+   background-color: black;
+
+border-radius: 1rem;
+border: none;  
+}
+h1{
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+h1:hover{
+    color: orange;
+    cursor: pointer;
+}
